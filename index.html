@@ -23,12 +23,12 @@
         a { color: rgb(0, 0, 0); text-decoration: none; border-bottom: 2px dotted rgb(153, 153, 153); }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
+        /* #objective { width: 800px; float: left; } */
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
-        img {position:relative; left:-40px; top:20px}
+        img {}
      </style>
 </head>
 
@@ -42,24 +42,30 @@
         
             <h1 class="fn">Li Liwen</h1>
 
-            <img src="images/photo.jpg" alt="Photo of Li Liwen" id="pic" width=200/>
+            <img src="images/photo.jpg" alt="Photo of Li Liwen" id="pic" width=200 style="margin:5px 0px -5px 10px"/>
             
-        
             <p>
                 Tel: <span class="tel">+8615821790565</span><br />
                 Email: <a class="email" href="mailto:liwen.li.gm@gmail.com">liwen.li.gm@gmail.com</a>
             </p>
+
+            <article id="objective">
+                <p style="text-align:justify; text-justify:inter-ideograph;" >
+                    Artificial Intelligence (AI) studies data, and the most valuable data lies in finance.
+                    I am very interested in AI and have spent lots of time researching and experimenting.
+                    Hearing the legend of AlphaGo in my childhood aroused my utmost interest and curiosity in AI.
+                    As an undergraduate, I double-majored in laboratory medicine and computer science, trying to learn how to analyze the world and figure out its secret.
+                    Computers are like an extension of our brain and body.
+                    It enables an individual to achieve what once could never be achieved.
+                    As diving deeper into the world of AI, I find it quite different from my imagination but even more fascinating.
+                    Finance correlates highly with almost all other fields, thus making its data highly representative.
+                    If I were to develop a robust system that could tell what the world would look like in the next five years, this system would base on finance.
+                    I wish to understand the world, predict the world and change the world, and that's why I choose to study finance.
+                </p>
+                
+            </article>
         </header>
                 
-        <article id="objective">
-            <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a 
-                career that fits my professional skills, personality, and murderous tendencies. 
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
-                I can bring world domination to your organization. 
-            </p>
-        </article>
-        
         <div class="clear"></div>
         
         <main>
@@ -69,7 +75,7 @@
             <dd>
                 <h3>Shanghai Jiao Tong University - Bachelor of Science</h3><br/>
                 <h2><span>Sep 2019 - Jun 2023</span></h2>
-                <p><strong>Double Major:</strong> Medical Laboratory and Computer Science and Technology</p>
+                <p><strong>Double Major: </strong>Laboratory Medicine and Computer Science</p>
             
                 <!-- <h3>Oxford Medical and Life Science Online Programme</h3><br/>
                 <h2><span>Summer 2021</span></h2>
@@ -93,7 +99,7 @@
                 <p>TensorFlow, PyTorch, Linux, CLion, PyCharm, IntelliJ</p>
 
                 <h2>ML Algorithms</h2>
-                <p>Neural Networks, RNN, CNN, Adam Optimization Algorithm, SVM, etc.</p>
+                <p>Neural Networks, RNN, CNN, GAN, Adam Optimization Algorithm, SVM, etc.</p>
 
                 <h2>Medical Techniques</h2>
                 <p>Animal Model Establishment, Aseptic Techniques in Cell Experiment, Microbiology Experiment Techniques, Various Microscope Usage</p>
@@ -122,7 +128,7 @@
                 <h3><span>Supervisor: Prof. Lei Dong</span></h3>
                 
                 <ul>
-                    <li>Applied U-Net in nucleus segmentation with an IOU of 85.1% in validation set</li>
+                    <li>Applied U-Net in nucleus segmentation with dice score of 85.1% in validation set</li>
                     <li>Applied YOLO in nucleus detection with an accuracy above 95% in validation set</li>
                     <li>Applied unsupervised algorithms (k-means etc.) in clustering segmented nucleus</li>
                     <li>Trying to use statistics methods to find hidden features in each nucleus clusters</li>
@@ -146,13 +152,65 @@
             
             <dd class="clear"></dd>
             
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+            <dt>Programs</dt>
+            <dd>            
+                <h3>Oxford Medical and Life Science Online Programme</h3><br/>
+                <h2><span>Summer 2021</span></h2>
+
+                <h3>Deep Learning Specialization</h3><br/>
+                <h2><span>DeepLearning.AI Coursera</span></h2>
+
+                <h3>Machine Learning</h3><br/>
+                <h2><span>Stanford Online</span></h2>
+            </dd>
+
+            <dd class="clear"></dd>
+            
+            <dt>Student Work and Achivements</dt>
+            <dd>            
+                <h3>President of publicity department in student unio</h3><br/>
+                <h2><span>Fall 2020 — Fall 2021</span></h2>
+
+                <h3>"Award for Best Picture" in the fourth Campus Art Festival</h3><br/>
+                <h2><span>Sep 2021</span></h2>
+
+                <h3>Member of Shanghai Jiao Tong University Photography Association</h3><br/>
+                <h2><span>Spring 2020</span></h2>
+            </dd>
             
             <dd class="clear"></dd>
             
-            <dt>References</dt>
-            <dd>Available on request</dd>
+            <dt>Projects</dt>
+            <dd>
+                <h3>Cats vs Dogs - Convolutional Neural Networks</h3><br/>
+                <h2><span>Nov 2021</span></h2>
+                
+                <ul>
+                    <li>Used Numpy to develop a convolutional neural network with more than 20 layers from scratch</li>
+                    <li>Achieved an accuracy of 95%</li>
+                </ul>
+
+                <h3>My Shell - Operating System</h3><br/>
+                <h2><span>Mar 2022</span></h2>
+                
+                <ul>
+                    <li>Used C programming language and multi-processing technique to build a customized shell on Ubuntu</li>
+                </ul>
+
+                <h3>Effects and Mechanisms of Ultrasmall Prussian Blue Nanozyme in Attenuating Acute Kidney Injury</a></h3><br/>
+                <h2><span>Shanghai Sixth People's Hospital</span></h2><br/>
+                <h3><span>Supervisor: Prof. Xiaojun Cai</span></h3>
+                
+                <ul>
+                    <li>Synthesized Ultrasmall Prussian Blue Nanozyme (UPBzyme) with a diameter of about 100nm</li>
+                    <li>Described the biodistribution and renal accumulation of UPBzyme through in vivo fluorescence technique</li>
+                    <li>Established ischemia/reperfusion (I/R)-induced and cisplatin-induced acute kidney injury (AKI) model</li>
+                    <li>Found statistical significance in mice weight loss between AKI group and UPBzyme therapy group</li>
+                    <li>Committed HK-2 cell experiments which demonstrated the antioxidant ability and potential cell-protection property of UPBzyme</li>
+                </ul>
+                
+                
+            </dd>
             
             <dd class="clear"></dd>
         </main>
